@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(41, 41, 63);
+}
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background-color: rgb(243, 111, 63);
+}
+.logo img {
+  width: 20%;
+  margin-left: 7rem;
+  margin-top: 0.5rem;
+}
+nav {
+  margin-top: 0.5rem;
+  position: relative;
+  left: 80%;
+  margin-top: 1.3rem;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 0 2rem;
+  color: black;
+}
+nav ul li a:hover {
+  color: white;
+}
+.navbar {
+  display: flex;
+}
+
+.search-bar {
+  position: relative;
+  left: 40rem;
+  margin-top: 1rem;
+}
+.search-icon {
+  font-size: 2rem;
+}
+.banner-photo img {
+  width: 40%;
+  height: 50vh;
+  position: absolute;
+  margin-top: 2rem;
+  top: 20%;
+  left: 30%;
+}
+.banner-text {
+  width: 30%;
+  background-color: white;
+  position: absolute;
+  left: 38%;
+  top: 50%;
+}
+.banner-text h1 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  line-height: 2rem;
+}
+.banner-text p {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  line-height: 1.2rem;
+}
+button {
+  font-size: 0.9rem;
+  padding: 0.7rem 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  background-color: rgb(243, 111, 63);
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.consultancy-about {
+  position: absolute;
+  top: 90%;
+  left: 35%;
+}
+.consultancy-about h1 {
+  color: white;
+  margin-top: 5rem;
+  /* margin-left: 5rem; */
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  position: relative;
+  right: 10%;
+}
+.consultancy-about p {
+  color: white;
+  margin-left: 7rem;
+  width: 50%;
+}
+#button-about {
+  background-color: white;
+  color: black;
+  margin-left: 12rem;
+}
+#button-about:hover {
+  background-color: rgb(243, 111, 63);
+}
+.services {
+  position: absolute;
+  top: 140%;
+  left: 35%;
+}
+.services h1 {
+  color: white;
+  margin-top: 2rem;
+  /* margin-left: 3rem; */
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  right: 20%;
+}
+.card {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.card-img {
+  width: 100%;
+}
+.card-body {
+  background: rgb(243, 111, 63);
+  height: 10vh;
+}
+.card-body h4 {
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: white;
+}
+.card-body p {
+  color: white;
+  margin-left: 2rem;
+}
+.portfolio {
+  background-color: rgb(243, 111, 63);
+  position: absolute;
+  top: 270%;
+  width: 100%;
+  display: flex;
+}
+.portfolio-part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  position: relative;
+  left: 30%;
+}
+.portfolio-part img {
+  width: 25%;
+  margin-top: 2rem;
+}
+.span-number {
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+.span-text {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-help {
+  position: absolute;
+  top: 300%;
+  left: 30%;
+}
+.contact-help h2 {
+  font-size: 4rem;
+  color: white;
+}
+.contact-help p {
+  color: white;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+.contact-help span {
+  color: rgb(243, 111, 63);
+}
+.footer-address {
+  position: absolute;
+  top: 330%;
+  width: 100%;
+  opacity: 1;
+}
+.footer-address img {
+  width: 100%;
+  height: 90vh;
+}
+.address {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+}
+.addresses {
+  width: 70%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.form {
+  position: absolute;
+  top: 330%;
+  left: 60%;
+  background-color: rgb(243, 111, 63);
+  margin-top: 2rem;
+}
+footer {
+  background-color: rgb(41, 41, 63);
+  color: white;
+  text-align: center;
+  margin-top: 4%;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  width: 100%;
+  position: absolute;
+  top: 420%;
+}
+footer span {
+  color: rgb(243, 111, 63);
+}
